@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Contact Page</h1>
+
+    <p>
+        <a href="index.html">Home</a> | 
+        <a href="about.html">About</a> | 
+        <a href="contact.html">Contact Us</a>
+    </p>
+
+    <hr>
+
+    <h2>Send Us a Message</h2>
+
+    <form action="#" method="POST">
+        
+        <!-- Text -->
+        <label>Name:</label><br>
+        <input type="text" name="username">
+        <br><br>
+
+        <!-- Email -->
+        <label>Email Address:</label><br>
+        <input type="email" name="email">
+        <br><br>
+
+        <!-- Number -->
+        <label>Phone Number:</label><br>
+        <input type="number" name="phone">
+        <br><br>
+
+        <!-- Date -->
+        <label>Date of Birth:</label><br>
+        <input type="date" name="dob">
+        <br><br>
+
+        <!-- Radio buttons -->
+        <label>Gender:</label><br>
+        <input type="radio" name="gender" value="male"> Male
+        <input type="radio" name="gender" value="female"> Female
+        <br><br>
+
+        <!-- Checkboxes -->
+        <label>Hobbies:</label><br>
+        <input type="checkbox" name="hobby" value="coding"> Coding
+        <input type="checkbox" name="hobby" value="reading"> Reading
+        <br><br>
+
+        <!-- Dropdown menu (Select) -->
+        <label>Country:</label><br>
+        <select name="country">
+            <option value="egypt">Egypt</option>
+            <option value="usa">USA</option>
+            <option value="other">Other</option>
+        </select>
+        <br><br>
+
+        <!-- Large text box (Textarea) -->
+        <label>Message:</label><br>
+        <textarea name="message" rows="4" cols="30"></textarea>
+        <br><br>
+
+        <input type="submit" value="Submit">
+
+    </form>
+
+</body>
+</html>

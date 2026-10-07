@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+hr {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+form {
+    background-color: white;
+    padding: 15px;
+    border: 1px solid #ccc;
+    width: 320px;
+}
